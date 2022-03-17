@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Aim Training | Проект 5</title>
+  </head>
+  <body>
+    <div class="screen"
+    style="background: url(https://a-static.besthdwallpaper.com/reddish-anime-girl-wallpaper-3440x1440-1883_15.jpg) no-repeat;
+    background-size: cover;">
+      <div class="osu"
+      style="background: url(https://avatars.mds.yandex.net/get-zen_doc/1950904/pub_5f2d55d4a27ff753df286dfc_5f2d7db2268a8b3aa0cdd430/scale_1200);
+      background-size: cover;">        
+      </div>
+      
+      <a href="#" class="start-link">
+      <div class="start hide">
+      </div>
+      </a>
+    </div>
+
+    <div class="screen"
+    style="background: url(https://sun9-66.userapi.com/impf/c857216/v857216168/1194ff/nd64b61fyk4.jpg?size=0x0&quality=90&proxy=1&sign=345ed77e8267ba10e31800062c48f0de&c_uniq_tag=tY7ZAE2LxUhOK7vvAnrF62LKQM3B1dOo0b2cqTkBfrE&type=video_thumb) no-repeat;
+    background-size: cover;">
+      <h1>Выберите время</h1>
+      <ul class="time-list" id="time-list" >
+        <li>
+          <button class="time-btn" data-time="10">
+            10 сек
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="15">
+            15 сек
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="20">
+            20 сек
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="30">
+            30 сек
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen">
+      <h3>Осталось <span id="time">00:00</span></h3>
+      <div class="board" id="board"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
